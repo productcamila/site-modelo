@@ -1,0 +1,396 @@
+/* Estilo do topo - todas as páginas */
+.topo{
+  font-size: 16px;
+  font-weight: regular;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin:0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #001b0d;
+  color: #cdffec;
+}
+/* Estilo da navegação - menu - todas as páginas*/
+nav{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 16px;
+  margin: 0;
+  background-color: #f5fffb;
+}
+.nav-topo{
+  margin: 0;
+  padding-right: 16px;
+  padding-left: 16px;
+  display: inline-flex;
+  }
+.nav-topo a{
+  padding-right: 16px;
+  padding-left: 16px;
+  color: #00351a;
+}
+.nav-topo a:hover{
+  text-decoration: underline;
+  padding: 16px;
+  background-color:#0f934e;
+  color: #cdffec;
+  border-radius: 80px;
+  display: inline-flex;
+  /* text-decoration: none; */ 
+}  
+.nav-topo-active{
+  margin: 0;
+  padding: 16px;
+  background-color:#0f934e;
+  color: #cdffec;
+  border-radius: 80px;    
+  display: inline-flex;
+}
+.toponav{
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+/* Estilos da página inicial - index */
+/* Estilo da seção principal: vídeo no background */
+.bloco-video{
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+ }
+.txt-video{
+  z-index: 1;
+  text-align: center;
+  width: 800px;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+ }
+.titulo-video {
+  font-size:80px;
+  line-height: 104px;
+  letter-spacing: 2px;
+  color: #cdffec;
+}
+.subtitulo-video {
+  font-size:56px;
+  line-height: 72px;
+  letter-spacing: 1px;
+}
+.video-container {
+  position: absolute;
+  top: 30;
+  left: 0;
+  width: 100%;
+}
+.color-overlay {
+  position: absolute;
+  top: 30;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:black;
+  opacity: 0.8;
+}
+/* Seção centralizada: texto + chamada para ação (botão) */
+.bloco-centralizado-cta{
+  align-items: center;
+  text-align: center;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  padding-right: 144px;
+  padding-left: 144px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #03351b;
+}
+.titulo-centro{
+  font-size:40px;
+  font-weight: bold;
+  line-height: 64px;
+}
+.texto-centro{
+  font-size:18px;
+  line-height: 40px;
+}
+/* Seção objetivos profissionais (imagem na esquerda e texto na direita) */
+.bloco-objetivos-profissionais{
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e4fff5;
+  padding-bottom: 104px;
+  padding-top: 104px;
+  padding-right: 144px;
+  padding-left: 144px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.foto-esquerda{
+  display: block;
+  position: relative;
+  float: left;
+}
+.txt-direita{
+  display: block;
+  position: relative;
+  float: right;
+  padding-left: 144px;
+}
+/* Seção do currículo (imagem na direita e texto na esquerda) */
+.bloco-curriculo{
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e4fff5;
+  padding-bottom: 104px;
+  padding-top: 104px;
+  padding-right: 144px;
+  padding-left: 144px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.foto-direita{
+  display: block;
+  position: relative;
+  float: right;
+}
+.txt-esquerda{
+  display: block;
+  position: relative;
+  float: left;
+  padding-right: 80px;
+}
+.corpo{
+  font-size:16px;
+  line-height: 30px;
+}
+/* Seção de contato - formulário */
+.bloco-contato{
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f5fffb;
+  padding-bottom: 104px;
+  padding-top: 104px;
+  padding-right: 144px;
+  padding-left: 144px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+/* Footer - todas as páginas */
+footer{
+  color: #cdffec;  
+  background-color: #001b0d;
+  padding-top: 104px;
+  padding-bottom: 104px;
+  padding-left: 80px;
+  padding-right: 80px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-fluid{
+  text-decoration:none;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 32px;
+}
+.col-sm-4{
+  text-decoration:none;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.nav-rodape {
+  margin-right: 40px;
+  text-align: left;
+  text-decoration: none;
+  list-style-type: none;
+} 
+.nav-rodape a{
+  margin-right: 40px;
+  text-align: left;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+} 
+.nav-rodape a:hover{
+  margin-right: 40px;
+  text-align: left;
+  text-decoration: underline;
+  list-style-type: none;
+  color: white;
+} 
+/* Página de contato - form */
+.titulo-formulario{
+  font-size: 40px;
+  margin-bottom: 48px;
+}
+.form-label{
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.form-input{
+  outline: transparent;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  width: 300px;
+  height: 48px;
+}
+.form-input-mensagem{
+  border-radius: 8px;
+  margin-bottom: 24px;
+  width: 400px;
+  height: 200px;
+}
+.form-input:focus{
+  border-bottom: 4px solid #FFD12D;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  width: 300px;
+  height: 48px;
+}
+.img-form{
+  margin-right: 80px;
+}
+.botao-form{
+  background-color: black;
+  color: #cdffec;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 40px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Botões */
+.cta-primary{
+  background-color: #cdffec;
+  color: black;
+  padding-top:16px;
+  padding-bottom:16px;
+  padding-right: 32px;
+  padding-left: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 80px;
+  border: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 24px;
+}
+.cta-secundario{
+  border:2px solid #cdffec;
+  color: #cdffec;
+  background-color: black;
+  padding-top:16px;
+  padding-bottom:16px;
+  padding-right: 32px;
+  padding-left: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 80px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 32px;
+}
+.cta-secundario-botao{
+  border:2px solid #cdffec;
+  color: #cdffec;
+  background-color: black;
+  padding-top:16px;
+  padding-bottom:16px;
+  padding-right: 32px;
+  padding-left: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 80px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 32px;
+}
+.cta-secundario-botao a{
+  border:2px solid #cdffec;
+  color: #cdffec;
+  background-color: black;
+  padding-top:16px;
+  padding-bottom:16px;
+  padding-right: 32px;
+  padding-left: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 80px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 32px;
+}
+/* Img topo das páginas */
+.bloco-imagem-paginas{
+  height: 200px;
+  width: 100%;
+  background: url(../img/imagem-topo-paginas.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-txt{
+  background-color: #001b0d;
+  opacity: 0.7;
+  height: 100%;
+}
+.bg-txt p{
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+/* Página do Portfólio - grid */
+.portfolio{
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding-top: 104px;
+  padding-bottom: 104px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #f5fffb;
+}
+.portfolio-item{
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+.img-portfolio{
+  border-radius: 16px;
+}
+.legenda-portfolio{
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 8px;
+  text-align: center;
+}

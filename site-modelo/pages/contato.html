@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Nome - Criação de sites e customização de plataformas</title>
+    <link rel="stylesheet" href="../css/estilo-modelo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="toponav">
+    <header class="topo">
+    {Seu Nome} Criação de sites e customização de plataformas
+    </header>
+    <nav>
+    <ul>
+        <li class="nav-topo"><a href="../index.html">Início</a></li>
+        <li class="nav-topo"><a href="../pages/informacoes-pessoais.html">Sobre</a></li>
+        <li class="nav-topo"><a href="../pages/objetivos-profissionais.html">Objetivos profissionais</a></li>
+        <!-- <li class="nav-topo"><a href="#">Currículo</a></li> -->
+        <li class="nav-topo"><a href="../pages/portfolio.html">Portfólio</a></li>
+        <li class="nav-topo-active">Contato</a></li>
+    </ul>
+    </nav>
+    </div>
+    <main>
+        <!--Seção imagem do topo das páginas-->
+        <section class="bloco-imagem-paginas">
+            <div class="bg-txt">
+            <p>Entre em contato</p>
+            </div>
+        </section>
+        <!--Seção de contato - formulário -->
+        <section class="bloco-contato">
+            <div class="foto-esquerda">
+                <img src="../img/img-form-contato.png"
+                alt="Imagem de letreito em led on de se lê Everything is connected"
+                width="465" height="316">
+            </div>
+            <div class="txt-direita">
+                <h2 class="titulo-texto">Formulário de contato</h2>
+                <form class="form-contato">
+                    <label class="form-label" for="nome">Como gostaria de ser chamado(a)?</label><br>
+                    <input class="form-input" type="text" id="nome" placeholder="Digite seu nome aqui"><br>
+                    <label class="form-label" for="email">Email</label><br>
+                    <input class="form-input" type="email" id="email" placeholder="email@email.com.br"><br>
+                    <label class="form-label" for="telefone">Telefone para contato</label><br>
+                    <input class="form-input" type="number" id="telefone" placeholder="(  ) 98765-4321"><br>
+                    <label class="form-label">Mensagem</label><br>
+                    <textarea class="form-input-mensagem" type="text" id="mensagem" name="mensagem"></textarea><br>
+                    <input type="button" class="botao-form" value="Enviar"></input>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <ul>
+                        <li class="nav-rodape"><a href="../site-modelo/index.html">Início</a></li>
+                        <li class="nav-rodape"><a href="../site-modelo/pages/informacoes-pessoais.html">Sobre</a></li>
+                        <li class="nav-rodape"><a href="../site-modelo/pages/objetivos-profissionais.html">Objetivos profissionais</a></li>
+                        <!-- <li class="menu-rodape"><a href="#">Currículo</a></li> -->
+                        <li class="nav-rodape"><a href="../site-modelo/pages/portfolio.html">Portfólio</a></li>
+                        <li class="nav-rodape"><a href="../site-modelo/pages/contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <spam style="font-weight: bold; letter-spacing: 2px; line-height: 30px;">Obrigada pela visita.</spam><br>
+                    <spam>Para parcerias de trabalho, 
+                    entre em contato pelo email: schiabel.camila@gmail.com</spam><br>
+                    <spam>Ou pelo WhatsApp:</spam><br>
+                    <spam>(11) 99989-1698</spam>
+                </div>
+                <div class="col-sm-4">
+                    <spam style="font-weight: bold; letter-spacing: 2px;">“Only you can control your future.”</spam><br>
+                    <spam>Dr. Seuss</spam>
+              </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
